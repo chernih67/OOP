@@ -1,10 +1,10 @@
-// LAB00_3.cpp: Вывод чисел фибоначи.
+п»ї// LAB00_3.cpp: Р’С‹РІРѕРґ С‡РёСЃРµР» С„РёР±РѕРЅР°С‡Рё.
 //
 #include "stdafx.h"
 #include <assert.h>
 #include <iostream>
 using namespace std;
-// преобразование строки в число
+// РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ СЃС‚СЂРѕРєРё РІ С‡РёСЃР»Рѕ
 int StringToInt(const char * str, bool & err)
 {
 	char * pLastChar = NULL;
@@ -12,7 +12,7 @@ int StringToInt(const char * str, bool & err)
 	err = ((*str == '\0') || (*pLastChar != '\0'));
 	return param;
 }
-// Числа Фибоначи
+// Р§РёСЃР»Р° Р¤РёР±РѕРЅР°С‡Рё
 void Fibonachi(int param)
 {
 	double long y = 0;
